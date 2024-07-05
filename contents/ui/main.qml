@@ -87,7 +87,7 @@ PlasmoidItem {
         }
 
         function exec(cmd) {
-            console.log("Hello World")
+            executable.connectSource(cmd)
         }
     }
 
