@@ -44,7 +44,6 @@ PlasmoidItem {
         MouseArea {
             anchors.fill: parent
             onClicked: executable.exec(plasmoid.configuration.command)
-            onPressed: executable.exec(plasmoid.configuration.command)
         }
 
         PlasmaCore.ToolTipArea {
@@ -88,7 +87,7 @@ PlasmoidItem {
         }
 
         function exec(cmd) {
-            executable.connectSource(cmd)
+            console.log("Hello World")
         }
     }
 
