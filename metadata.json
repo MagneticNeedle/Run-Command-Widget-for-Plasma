@@ -5,7 +5,11 @@
             {
                 "Email": "info@himdek.com",
                 "Name": "Himprakash Deka"
+            },
+            {
+                "Name": "Vibhakar Solanki"
             }
+
         ],
         "Category": "Utilities",
         "ServiceTypes": [
